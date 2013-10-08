@@ -1,0 +1,11 @@
+@media only screen and (min-width: 1140px) {
+  /* Desktop styles (wider than 1140 pixels) */
+  #header h2 {color: green;}
+
+  #me-chart img {
+    display: block;
+    width: 80%;
+    margin: 0 10%;
+    height: auto;
+  }
+}

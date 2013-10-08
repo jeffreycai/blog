@@ -1,0 +1,56 @@
+@media only screen and (min-width: 321px) {
+  /* Larger mobile styles (wider than 320 pixels) */
+  .margin-top {
+    margin-top: 28px;
+  }
+  .margin-bottom {
+    margin-bottom: 28px;
+  }
+  .margin-left {
+    margin-left: 22px;
+  }
+  .margin-right {
+    margin-right: 22px;
+  }
+  .padding-top {
+    padding-top: 28px;
+  }
+  .padding-bottom {
+    padding-bottom: 28px;
+  }
+  .padding-left {
+    padding-left: 22px;
+  }
+  .padding-right {
+    padding-right: 22px;
+  }
+  #header h2 {color: blue;}
+  #main-navigation .menu-toggle {
+    display: none;
+  }
+  #main-navigation .nav-menu {
+    padding: 0.7em 0;
+    border-top: 1px solid #EDEDED;
+    border-bottom: 1px solid #EDEDED;
+    display: block !important;
+  }
+  #main-navigation .nav-menu li {
+    display: inline-block;
+    text-align: center;
+    padding: 0.8em 1.5em;
+  }
+  #main-navigation .nav-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+  #me-chart img {
+    display: block;
+    width: 70%;
+    margin: 0 15%;
+    height: auto;
+  }
+  #body h1 {
+    font-size: 1.6em;
+  }
+}
+

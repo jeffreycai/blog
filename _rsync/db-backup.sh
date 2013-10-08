@@ -1,0 +1,1 @@
+mysqldump -ublog -p blog > blog.dump.sql

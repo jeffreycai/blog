@@ -1,0 +1,68 @@
+@media only screen and (min-width: 1024px) {
+  /* Large laptop styles (wider than 1024 pixels) */
+  
+  /* 12-column responsive grid */
+
+  [class*="responsive-L-col-"] {
+      float: left;
+      margin: 0 3.84615384615% 0 0;
+      list-style: none;
+      position: relative;
+      display: block;
+  }
+  [class*="responsive-L-col-"]:last-child {
+      margin: 0;
+  }
+  [class*="responsive-L-none"] {
+      display: none;
+  }
+  .responsive-L-col-1 { width: 4.8076923077% }
+  .responsive-L-col-2 { width: 13.4615384615% }
+  .responsive-L-col-3 { width: 22.1153846154% }
+  .responsive-L-col-4 { width: 30.7692307692% }
+  .responsive-L-col-5 { width: 39.4230769231% }
+  .responsive-L-col-6 { width: 48.0769230769% }
+  .responsive-L-col-7 { width: 56.7307692308% }
+  .responsive-L-col-8 { width: 65.3846153846% }
+  .responsive-L-col-9 { width: 74.0384615385% }
+  .responsive-L-col-10 { width: 82.6923076923% }
+  .responsive-L-col-11 { width: 91.3461538462% }
+  .responsive-L-col-12 { width: 100%; margin: 0 }
+    
+    
+  .margin-top {
+    margin-top: 35px;
+  }
+  .margin-bottom {
+    margin-bottom: 35px;
+  }
+  .margin-left {
+    margin-left: 35px;
+  }
+  .margin-right {
+    margin-right: 35px;
+  }
+  .padding-top {
+    padding-top: 35px;
+  }
+  .padding-bottom {
+    padding-bottom: 35px;
+  }
+  .padding-left {
+    padding-left: 35px;
+  }
+  .padding-right {
+    padding-right: 35px;
+  }
+  #header h2 {color: red;}
+  
+  #body h1 {
+    font-size: 2.2em;
+  }
+  #me-chart img {
+    display: block;
+    width: 90%;
+    margin: 0 5%;
+    height: auto;
+  }
+}
